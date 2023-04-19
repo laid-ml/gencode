@@ -70,8 +70,7 @@ public class GenerateurMotDePasseGUI {
     }
 
     private static String genererMotDePasseAleatoire(int longueur, boolean inclureMajuscules, boolean inclureMinuscules, boolean inclureChiffres, boolean inclureCaracteresSpeciaux) {
-        if (long
-
+        
         if (longueur < 1) {
             throw new IllegalArgumentException("La longueur doit être supérieure à 0");
         }
@@ -102,3 +101,6 @@ public class GenerateurMotDePasseGUI {
         return motDePasse.toString();
     }
 }
+
+
+      
